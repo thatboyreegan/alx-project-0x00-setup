@@ -3,8 +3,12 @@ import Pill from "@/components/Pill"
 
 const Landing: React.FC =  () => {
     return (
-      <div>
-        <h1 className=" text-xl font-extralight">Landing Page</h1>
+      <div className="gap-10 grid grid-cols-3">
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
         <Card/>
     
       </div>
